@@ -1,7 +1,7 @@
 <template>
   <Header :header="this.header" />
   <div class="content-container">
-    <section class="section-container" id="missions" style="width:22.87vw; height:78.46vh;">
+    <section class="section-container" id="missions" style="width:22.87vw; height:78.46vh; min-width:435px; min-height:714px;">
       <div class="section-header clipped-medium-backward">
         <img src="/icons/mission-icon.svg" />
         <h1>Mission Log</h1>
@@ -21,7 +21,7 @@
         </div>
       </div>
     </section>
-    <section class="section-container" id="events" style="width:22.87vw; height:78.46vh;">
+    <section class="section-container" id="events" style="width:22.87vw; height:78.46vh; min-width:435px; min-height:714px;">
       <div class="section-header clipped-medium-backward">
         <img src="/icons/events-icon.svg" />
         <h1>Events Log</h1>
@@ -30,8 +30,8 @@
         <Markdown :source="events" class="markdown" />
       </div>
     </section>
-    <section class="section-container" id="pilots" style="width:37vw; height:78.46vh;">
-      <div style="height:5.71vh; overflow:hidden;">
+    <section class="section-container" id="pilots" style="width:37vw; height:78.46vh; min-width:894px; min-height:714px;">
+      <div style="height:5.71vh; overflow:hidden; min-height:52px;">
         <div class="section-header clipped-medium-backward-pilot">
           <img src="/icons/pilot-icon.svg" />
           <h1>Pilot Roster</h1>
@@ -89,8 +89,8 @@ export default {
 
   data() {
     return {
-      "mission_slug": "003",
-      "current_md": "003",
+      "mission_slug": "004",
+      "current_md": "004",
       "events": "",
       "missions": [
           {
@@ -98,13 +98,18 @@ export default {
           "name": "A Little Bit Damp",
           "status": "success"
         },
-	{
+	    {
           "slug": "002",
+          "name": "Signals Left Unsung",
+          "status": "success"
+        },
+	    {
+          "slug": "003",
           "name": "Operation Howling Blade",
           "status": "partial-success"
         },
         {
-          "slug": "003",
+          "slug": "004",
           "name": "Exploring Astran IV",
           "status": "start"
         },
