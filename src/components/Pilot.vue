@@ -60,7 +60,7 @@ export default {
 					pilot: this.pilot,
 				},
 				class: "TEST",
-				width: 100vw,
+				width: "100%",
 			});
 		},
 	}
