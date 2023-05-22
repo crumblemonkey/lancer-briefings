@@ -1,7 +1,7 @@
 <template>
   <Header :header="this.header" />
   <div class="content-container">
-    <section class="section-container" id="missions" style="width:435px; height:714px;">
+    <section class="section-container" id="missions" style="width:22.87vw; height:78.46vh;">
       <div class="section-header clipped-medium-backward">
         <img src="/icons/mission-icon.svg" />
         <h1>Mission Log</h1>
@@ -21,7 +21,7 @@
         </div>
       </div>
     </section>
-    <section class="section-container" id="events" style="width:435px; height:714px;">
+    <section class="section-container" id="events" style="width:22.87vw; height:78.46vh;">
       <div class="section-header clipped-medium-backward">
         <img src="/icons/events-icon.svg" />
         <h1>Events Log</h1>
@@ -30,8 +30,8 @@
         <Markdown :source="events" class="markdown" />
       </div>
     </section>
-    <section class="section-container" id="pilots" style="width:894px; height:714px;">
-      <div style="height:52px; overflow:hidden;">
+    <section class="section-container" id="pilots" style="width:47vw; height:78.46vh;">
+      <div style="height:5.71vh; overflow:hidden;">
         <div class="section-header clipped-medium-backward-pilot">
           <img src="/icons/pilot-icon.svg" />
           <h1>Pilot Roster</h1>
@@ -205,8 +205,8 @@ export default {
 
 <style lang="scss">
 #app {
-  width: 1902px;
-  height: 910px;
+  width: 100vw;
+  height: 100vh;
   overflow: hidden;
 }
 </style>
