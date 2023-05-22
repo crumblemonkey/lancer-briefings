@@ -147,6 +147,14 @@ export default {
           "frame": "Hydra",
           "mech": "Monsus The Battle Bus"
         },
+		{
+          "callsign": "Birdy",
+          "alias": "Alison Rosalyn Hawk",
+          "code": "5fg34gh6-n657-n6jk5-b5jg-d678s56w78e///NDL-C-DEEP-STATION//8965r579-ji75-gy75-99y9-789656d674e5",
+          "corpro": "Horus",
+          "frame": "Balor",
+          "mech": "E.T.N.A"
+        },
       ],
       "header": {
         "planet": "Astran IV",
