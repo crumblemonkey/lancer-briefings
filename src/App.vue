@@ -89,12 +89,17 @@ export default {
 
   data() {
     return {
-      "mission_slug": "001",
-      "current_md": "001",
+      "mission_slug": "002",
+      "current_md": "002",
       "events": "",
       "missions": [
         {
           "slug": "001",
+          "name": "Operation Howling Blade",
+          "status": "partial-success"
+        },
+        {
+          "slug": "002",
           "name": "Exploring Astran IV",
           "status": "start"
         },
