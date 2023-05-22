@@ -141,7 +141,7 @@ export default {
         },
 		{
           "callsign": "HACKERMANS.omif",
-          "alias": "Exeter",
+          "alias": "Ecne",
           "code": "7fu24if8-389b-4903-u4i0-67298y3iu487///NDL-C-DEEP-STATION//492098u8-9g78-3948-9g09-890890g789ye",
           "corpro": "Horus",
           "frame": "Hydra",
