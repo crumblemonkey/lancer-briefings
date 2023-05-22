@@ -135,9 +135,17 @@ export default {
           "callsign": "Charon",
           "alias": "Kira Feldston",
           "code": "4be26ce9-923b-4069-b6c9-76437d4be455///NDL-C-DEEP-STATION//056940c6-8d55-4190-8e85-57caa043cb1a",
-          "corpro": "GMS",
+          "corpro": "SSC",
           "frame": "Viceroy",
           "mech": "Viceroy"
+        },
+		{
+          "callsign": "HACKERMANS.omif",
+          "alias": "Exeter",
+          "code": "7fu24if8-389b-4903-u4i0-67298y3iu487///NDL-C-DEEP-STATION//492098u8-9g78-3948-9g09-890890g789ye",
+          "corpro": "Horus",
+          "frame": "Hydra",
+          "mech": "Monsus The Battle Bus"
         },
       ],
       "header": {
