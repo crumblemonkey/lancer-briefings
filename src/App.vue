@@ -205,8 +205,10 @@ export default {
 
 <style lang="scss">
 #app {
-  width: 1902px;
+  width: 100vw;
   height: 100vh;
+  min-width: 1902px;
+  min-height: 910px;
   overflow: hidden;
 }
 </style>
