@@ -1,7 +1,7 @@
 <template>
   <Header :header="this.header" />
   <div class="content-container">
-    <section class="section-container" id="missions" style="width:22.87vw; height:78.46vh; min-width:435px; min-height:714px;">
+    <section class="section-container" id="missions" style="width:22.87vw; height:78.46vh; min-width:300px; min-height:714px;">
       <div class="section-header clipped-medium-backward">
         <img src="/icons/mission-icon.svg" />
         <h1>Mission Log</h1>
@@ -21,7 +21,7 @@
         </div>
       </div>
     </section>
-    <section class="section-container" id="events" style="width:22.87vw; height:78.46vh; min-width:435px; min-height:714px;">
+    <section class="section-container" id="events" style="width:22.87vw; height:78.46vh; min-width:300px; min-height:714px;">
       <div class="section-header clipped-medium-backward">
         <img src="/icons/events-icon.svg" />
         <h1>Events Log</h1>
@@ -30,7 +30,7 @@
         <Markdown :source="events" class="markdown" />
       </div>
     </section>
-    <section class="section-container" id="pilots" style="width:37vw; height:78.46vh; min-width:894px; min-height:714px;">
+    <section class="section-container" id="pilots" style="width:37vw; height:78.46vh; min-width:600px; min-height:714px;">
       <div style="height:5.71vh; overflow:hidden; min-height:52px;">
         <div class="section-header clipped-medium-backward-pilot">
           <img src="/icons/pilot-icon.svg" />
@@ -220,7 +220,7 @@ export default {
 #app {
   width: 100vw;
   height: 100vh;
-  min-width: 1902px;
+  min-width: 1300px;
   min-height: 910px;
   overflow: hidden;
 }
