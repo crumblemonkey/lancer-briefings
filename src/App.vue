@@ -133,7 +133,7 @@ export default {
         "ring": "<Redacted>",
         "headerTitle": "Mirrorsmoke",
         "headerSubtitle": "Mercenary Company",
-        "subheaderTitle": "Crisis Response",
+        "subheaderTitle": "Worlds End",
         "subheaderSubtitle": "Delta-Echo-Echo-Zulu",
       },
       "options":{
