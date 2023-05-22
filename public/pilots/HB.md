@@ -1,7 +1,7 @@
 The following information is the property of Smith-Shimano Corporation and may not be used, copied, or sold without permission.
 
 Jerk VOD (XX-XX-4925)
-```
+
 [Begin Log]
 
 [The screen displays “Stream Starting Soon” on a cream background with pale yellow honeycomb designs scattered about. After roughly a minute, the stream changes to a view of the horizon an unidentified planet. Honey’s Virtual Humanoid Model (henceforth referred to as a VHM) is present in the bottom left-hand corner. A display of the viewer chat is visible on the right-hand side.]
@@ -39,4 +39,3 @@ Honey: Don’t worry about it 😊
 [The stream proceeds, Honey chattering on with her chat and allies as the battle continues.]
 
 [End Log]
-```
