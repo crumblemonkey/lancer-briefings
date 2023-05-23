@@ -30,8 +30,8 @@
         <Markdown :source="events" class="markdown" />
       </div>
     </section>
-    <section class="section-container" id="pilots" style="width:37vw; height:78.46vh; min-width:600px; min-height:714px;">
-    <div style="height:5.71vh; overflow:hidden; min-height:52px;">
+    <section class="section-container" id="pilots" style="width:37vw; height:78.46vh; min-width:600px; min-height:714px; max-width:850px;">
+    <div style="height:52px; overflow:hidden;">
         <div class="section-header clipped-medium-backward-pilot">
           <img src="/icons/pilot-icon.svg" />
           <h1>Pilot Roster</h1>
