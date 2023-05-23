@@ -1,6 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/55d0e9f5-8e0d-422e-a3d0-38a79ecf2413/deploy-status)](https://app.netlify.com/sites/lancer-briefings/deploys)
-# Lancer Briefings
-
 **[Live Demo](https://lancer.kuenaimaku.com/)** (No Room for a Wallflower Spoilers)
 
 Go over mission briefings within the LANCER Universe in style by showing your players a fully animated mission briefing screen, with a Mirrorsmoke Mercenary Company theme.
@@ -61,7 +58,7 @@ This file contains the basic structure of the entire application - and houses th
 
 ## Hosting Recommendations
 
-I would strongly recommend using [Netlify](https://www.netlify.com/) for hosting, as there's no cost for hosting, has Continuous Deployment, and they'll provide a url. Register for an account, and click the `New Site from Git` button.  
+Using [Netlify](https://www.netlify.com/) for hosting is suggested, as there's no cost, has Continuous Deployment, and they'll provide a url. Register for an account, and click the `New Site from Git` button.  
 On the next page, pick the git service you used to fork this repo with, and authenticate. On the next page, select the `lancer-briefings` repository. If you can't see the repository listed on the page, click the `Can’t see your repo here? Configure the Netlify app on <git site>` link at the bottom of the page.  
 Finally, make sure the branch being deployed is `master`, the `base directory` field is blank, the `build command` is `npm run build`, and the publish directory is `dist`. 
 
