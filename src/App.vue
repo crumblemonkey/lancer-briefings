@@ -139,7 +139,7 @@ export default {
           "frame": "Viceroy",
           "mech": "Viceroy"
         },
-		{
+	{
           "callsign": "HACKERMANS.omif",
           "alias": "Ecne",
           "code": "7fu24if8-389b-4903-u4i0-67298y3iu487///NDL-C-DEEP-STATION//492098u8-9g78-3948-9g09-890890g789ye",
@@ -147,13 +147,21 @@ export default {
           "frame": "Hydra",
           "mech": "Monsus The Battle Bus"
         },
-		{
+	{
           "callsign": "Birdy",
           "alias": "Alison Rosalyn Hawk",
           "code": "5fg34gh6-n657-n6jk5-b5jg-d678s56w78e///NDL-C-DEEP-STATION//8965r579-ji75-gy75-99y9-789656d674e5",
           "corpro": "Horus",
           "frame": "Balor",
           "mech": "E.T.N.A"
+        },
+	{
+          "callsign": "Monkey",
+          "alias": "Sophia Ogawa",
+          "code": "7d998d67s-78s6-9c064-8d40-720g427dx329///NDL-C-DEEP-STATION//930558r2-i74e-8324-ue64-878935386c74w",
+          "corpro": "SSC",
+          "frame": "Orchis",
+          "mech": "Arcturus"
         },
       ],
       "header": {
