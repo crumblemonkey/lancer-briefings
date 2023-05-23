@@ -158,7 +158,7 @@ export default {
 	{
           "callsign": "Monkey",
           "alias": "Sophia Ogawa",
-          "code": "7d998d67s-78s6-9c064-8d40-720g427dx329///NDL-C-DEEP-STATION//930558r2-i74e-8324-ue64-878935386c74w",
+          "code": "",
           "corpro": "SSC",
           "frame": "Orchis",
           "mech": "Arcturus"
@@ -167,12 +167,12 @@ export default {
       "header": {
         "planet": "Astran IV",
         "year": "5014u",
-        "system": "<Redacted>",
-        "gate": "<Redacted>",
-        "ring": "<Redacted>",
+        "system": "Kasdaen",
+        "gate": "Hermes 329",
+        "ring": "Long Rim",
         "headerTitle": "Mirrorsmoke",
         "headerSubtitle": "Mercenary Company",
-        "subheaderTitle": "Worlds End",
+        "subheaderTitle": "World's End",
         "subheaderSubtitle": "Delta-Echo-Echo-Zulu",
       },
       "options":{
