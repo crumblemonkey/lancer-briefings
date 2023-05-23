@@ -31,13 +31,11 @@
       </div>
     </section>
     <section class="section-container" id="pilots" style="width:37vw; height:78.46vh; min-width:600px; min-height:714px;">
-      <div style="height:5.71vh; overflow:hidden; min-height:52px;">
         <div class="section-header clipped-medium-backward-pilot">
           <img src="/icons/pilot-icon.svg" />
           <h1>Pilot Roster</h1>
         </div>
         <div class="rhombus-back">&nbsp;</div>
-      </div>
       <div class="section-content-container">
         <div class="pilot-list-container">
           <Pilot v-for="item in this.pilots" :key="item.slug" :pilot="item" />
